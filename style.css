@@ -214,3 +214,75 @@ nav > .logo >a >span{
   
 }
 /* skills section ends here */
+/* Resume section starts here */
+#Resume{
+  width: 1140px;
+  margin: auto;
+  h1{
+      color: var(--Dark-01, #181818);
+      text-align: center;
+      font-size: 35px;
+      font-weight: 700;
+      padding-bottom: 100px;
+    }
+    .btn-primary{
+      margin-top: 50px;
+      margin-left: 40%;
+    }
+  .container{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    .Education{
+      h2{
+        color: var(--Dark-02, #474747);
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 30px;
+      }
+      h3{
+        padding-top: 30px;
+        color: var(--Dark-03, #757575);
+        font-size: 20px;
+        font-weight: 600;
+      }
+      h4{
+        color: var(--Dark-03, #757575);
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 20px;
+  
+      }
+
+      p{
+        margin-bottom: 30px;
+      }
+    }
+    .Experience{
+      h2{
+        color: var(--Dark-02, #474747);
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 30px;
+      }
+      h3{
+        padding-top: 30px;
+        color: var(--Dark-03, #757575);
+        font-size: 20px;
+        font-weight: 600;
+      }
+      h4{
+        color: var(--Dark-03, #757575);
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 20px;
+  
+      }
+
+      p{
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
+/* Resume section ends here*/
