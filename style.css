@@ -166,3 +166,51 @@ nav > .logo >a >span{
   }
 }
 /* About me ends here */
+/* skills section starts here */
+#skills{
+  width: 1140px;
+  margin: auto;
+  .container{
+    width: 900px;
+    margin: auto;
+    h1{
+      color: var(--Dark-01, #181818);
+      font-size: 35px;
+      text-align: center;
+      font-weight: 700;
+    }
+    p{
+      margin-top: 40px;
+      color: var(--Dark-03, #757575);
+      text-align: center;
+      font-size: 18px;
+      font-weight: 400;
+    }
+  }
+    .skill-cards{
+      margin-top: 50px;
+      margin-bottom: 150px;
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      card{
+        box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+        img{
+          margin: 30px;
+          margin-bottom: 0px;
+        }
+        h3{ 
+          margin: 30px;
+          margin-bottom: 0px;
+          
+        }
+        p{
+          margin: 30px;
+          text-align: left;
+          line-height: 30px;
+        }
+      }
+    }
+  
+}
+/* skills section ends here */
